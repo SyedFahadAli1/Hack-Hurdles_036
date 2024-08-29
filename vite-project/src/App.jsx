@@ -11,6 +11,7 @@ import "./styles/styles.css"
 import { Navbar } from "./components/navbar";
 import SignUpForm from "./components/SignUpForm";
 
+
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/login" element={<LoginForm/>} />
         </Routes>
       </div>
+      <h1>Code in progress....</h1>
     </>
   );
 }
