@@ -6,7 +6,7 @@ import sec32img from '../assets/sec3-2.jpg'
 import sec31img from '../assets/sec3-1img.jpg'
 import blogimg from '../assets/blogimg.jpg'
 import bad1 from '../assets/badge-2-1.svg'
-import bad2 from '../assets/capterra-reviews.webp'
+import bad2 from '../assets/capterra.webp'
 import logo from '../assets/logo.jpg'
 export const Home = () => {
   return (
