@@ -1,0 +1,62 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.rs>.container1
+{
+    display: flex;
+    padding: 20px 100px;
+   align-items: center;
+}
+.rs span
+{
+    color: rgb(60, 172, 213);
+}
+
+.rs>h1
+{
+    text-align: center;
+    margin-top: 130px;
+}
+.rs>.headp
+{
+    text-align: center;
+}
+.rs button
+{
+    padding:20px 40px;
+    background-color:rgb(60, 172, 213) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+.rs button:hover
+{
+  opacity: 80%;
+  cursor: pointer;
+}
+.rs nav
+{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+}
+nav>img
+{
+    width: 80px;
+}
+
+.rs nav div
+{
+
+}
