@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.editor {
+    @apply flex flex-col p-4;
+}
+
+.slide-editor {
+    @apply mb-4;
+}
+
+.preview {
+    @apply p-4 bg-gray-100 rounded;
+}
