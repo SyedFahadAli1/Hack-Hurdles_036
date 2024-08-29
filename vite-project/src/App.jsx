@@ -23,7 +23,6 @@ function App() {
           <Route path="/login" element={<LoginForm/>} />
         </Routes>
       </div>
-      <h1>Code in progress....</h1>
     </>
   );
 }
