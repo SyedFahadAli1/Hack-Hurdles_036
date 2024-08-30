@@ -43,7 +43,9 @@ const SignUpForm = () => {
   };
 
   return (
-    <div className="wrapper">
+    <>
+    <div className='ppcover'>
+       <div className="wrapper">
       <h1>Sign Up</h1>
       <form onSubmit={handleSubmit}>
         <div className="input-box">
@@ -72,6 +74,9 @@ const SignUpForm = () => {
         </div>
       </form>
     </div>
+      </div>
+      </> 
+   
   );
 };
 
