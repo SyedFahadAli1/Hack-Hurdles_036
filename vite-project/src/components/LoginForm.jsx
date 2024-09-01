@@ -16,7 +16,7 @@ const LoginForm = () => {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate('/landing');
+      navigate('/editor');
     } catch (error) {
       setError(error.message);
       window.alert(`Login failed: ${error.message}`);

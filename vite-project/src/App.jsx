@@ -10,6 +10,8 @@ import "./styles/styles.css"
 
 import { Navbar } from "./components/navbar";
 import SignUpForm from "./components/SignUpForm";
+import EditorPage from './pages/EditorPage';
+import Presentation from "./components/lastpresentaion";
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/signup" element={<SignUpForm/>} />
           <Route path="/login" element={<LoginForm/>} />
+          <Route path="/editor" element={<EditorPage />} />
+          <Route path="/slideshow" element={<Presentation/>} />
         </Routes>
       </div>
     </>
