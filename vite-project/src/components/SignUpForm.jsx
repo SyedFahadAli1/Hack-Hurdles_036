@@ -43,35 +43,37 @@ const SignUpForm = () => {
   };
 
   return (
-    <div className="wrapper">
-      <h1>Sign Up</h1>
-      <form onSubmit={handleSubmit}>
-        <div className="input-box">
-          <input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className="input-box">
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <button type="submit" className="btn">Sign Up</button>
-        {error && <div className="custom-alert">{error}</div>}
-        {success && <div className="success">{success}</div>}
-        <div className="register-link">
-          <p>Already have an account? <a href="/login">Login here</a></p>
-        </div>
-      </form>
-    </div>
+
+      <div className="wrapper">
+        <h1>Sign Up</h1>
+        <form onSubmit={handleSubmit}>
+          <div className="input-box">
+            <input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="input-box">
+            <input
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          <button type="submit" className="btn">Sign Up</button>
+          {error && <div className="custom-alert">{error}</div>}
+          {success && <div className="success">{success}</div>}
+          <div className="register-link">
+            <p>Already have an account? <a href="/login">Login here</a></p>
+          </div>
+        </form>
+      </div>
+ 
   );
 };
 

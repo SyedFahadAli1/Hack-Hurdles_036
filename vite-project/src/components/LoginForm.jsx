@@ -24,34 +24,36 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="wrapper">
-      <h1>Login</h1>
-      <form onSubmit={handleLogin}>
-        <div className="input-box">
-          <input
-            type="email"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className="input-box">
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <button type="submit" className="btn">Login</button>
-        {error && <p className="error">{error}</p>}
-        <div className="register-link">
-          <p>Don't have an account? <a href="/signup">Sign up here</a></p>
-        </div>
-      </form>
-    </div>
+
+      <div className="wrapper">
+        <h1>Login</h1>
+        <form onSubmit={handleLogin}>
+          <div className="input-box">
+            <input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="input-box">
+            <input
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          <button type="submit" className="btn">Login</button>
+          {error && <p className="error">{error}</p>}
+          <div className="register-link">
+            <p>Don't have an account? <a href="/signup">Sign up here</a></p>
+          </div>
+        </form>
+      </div>
+   
   );
 };
 
