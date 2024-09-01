@@ -11,7 +11,7 @@ Frontend
 ## Video Walkthrough of the project
 
 ## Deplolyed App
-Frontend: https://www.netlify.com/ </br>
+Frontend: https://hack-hurdles-036.vercel.app/ </br>
 Database: Firebase
 
 
