@@ -1,14 +1,16 @@
 import React from "react";
 import sec1img from '../assets/sec1img.jpg'
 import checkmark from "../assets/checkmark.jpg"
-import sec2img from '../assets/sec12img.webp'
+import sec2img from '../assets/sec2img.webp'
 import sec32img from '../assets/sec3-2.jpg'
 import sec31img from '../assets/sec3-1img.jpg'
 import blogimg from '../assets/blogimg.jpg'
 import bad1 from '../assets/badge-2-1.svg'
-import bad2 from '../assets/capterra-reviews.webp'
+import bad2 from '../assets/capterra.webp'
 import logo from '../assets/logo.jpg'
+import { useNavigate } from 'react-router-dom';
 export const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
     <div className="containerpp">
@@ -16,7 +18,7 @@ export const Home = () => {
         <div>
           <div>
             <p>Online Presentation Maker for Engaging Presentations</p>
-            <button>Create Your Presentation</button>
+            <button onClick={()=>{navigate("/signup")}}>Create Your Presentation</button>
           </div>
           <div>
             <img src={sec1img} alt="" />
@@ -70,7 +72,7 @@ export const Home = () => {
               you need to communicate within your presentation and customize
               them to perfectly fit your brand or topic.
             </p>
-            <button>Create Your Presentation</button>
+            <button onClick={()=>{navigate("/signup")}}>Create Your Presentation</button>
           </div>
         </div>
       </div>
@@ -85,7 +87,7 @@ export const Home = () => {
               Build the perfect slides with Visme’s easy-to-use presentation
               editor.
             </p>
-            <button>Create Your Presentation</button>
+            <button onClick={()=>{navigate("/signup")}}>Create Your Presentation</button>
           </div>
           <div>
             <img
@@ -116,7 +118,7 @@ export const Home = () => {
               and third-party content such as live websites and social media
               feeds.
             </p>
-            <button>Create Your Presentation</button>
+            <button onClick={()=>{navigate("/signup")}}>Create Your Presentation</button>
           </div>
         </div>
       </div>
@@ -215,7 +217,7 @@ export const Home = () => {
             Create visual brand experiences whether you are a seasoned designer
             or a total novice.
           </p>
-          <button>SignUp Free</button>
+          <button onClick={()=>{navigate("/signup")}}>SignUp Free</button>
         </div>
       </div>
       <div id="footerpp">

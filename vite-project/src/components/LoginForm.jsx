@@ -16,7 +16,7 @@ const LoginForm = () => {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate('/landing');
+      navigate('/editor');
     } catch (error) {
       setError(error.message);
       window.alert(`Login failed: ${error.message}`);
@@ -24,6 +24,8 @@ const LoginForm = () => {
   };
 
   return (
+    <>
+    <div className="ppcover">
     <div className="wrapper">
       <h1>Login</h1>
       <form onSubmit={handleLogin}>
@@ -52,6 +54,8 @@ const LoginForm = () => {
         </div>
       </form>
     </div>
+    </div>
+    </>
   );
 };
 
