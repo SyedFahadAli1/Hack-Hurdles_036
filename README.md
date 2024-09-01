@@ -10,6 +10,10 @@ Frontend
 
 ## Video Walkthrough of the project
 
+## Deplolyed App
+Frontend: https://www.netlify.com/ </br>
+Database: Firebase
+
 
 ## Directory Structure
 <pre>Hack-Hurdles_036/
