@@ -77,12 +77,34 @@ Database: Firebase
 ## Usage
 
 1. Open the application in your browser.
-2. Sign up for a new account or log in to an existing account to access your personalized workspace.
-3. Use the control panel at the bottom to add and edit slides.
-4. Select preset templates to quickly design your slides.
-5. Use the 'Next' and 'Previous' buttons to navigate through the slides.
-6. Resize and drag elements as needed on the canvas.
-7. Save your presentations to your account for future access.
+
+
+![SignUp screenshoot](https://github.com/SyedFahadAli1/Hack-Hurdles_036/blob/main/screenshot/Screenshot%20(132).png)
+
+![SignUp screenshoot](https://github.com/SyedFahadAli1/Hack-Hurdles_036/blob/main/screenshot/Screenshot%20(133).png)
+
+3. Sign up for a new account or log in to an existing account to access your personalized workspace.
+
+
+![SignUp screenshoot](https://github.com/SyedFahadAli1/Hack-Hurdles_036/blob/main/screenshot/Screenshot%20(134).png)
+![SignUp screenshoot](https://github.com/SyedFahadAli1/Hack-Hurdles_036/blob/main/screenshot/Screenshot%20(135).png)
+4. Use the control panel at the bottom to add and edit slides.
+
+
+5. Select preset templates to quickly design your slides.
+![SignUp screenshoot](https://github.com/SyedFahadAli1/Hack-Hurdles_036/blob/main/screenshot/Screenshot%20(136).png)
+
+
+6. Use the 'Next' and 'Previous' buttons to navigate through the slides.
+
+
+7. Resize and drag elements as needed on the canvas.
+
+
+8. Save your presentations to your account for future access.
+
+
+![SignUp screenshoot](https://github.com/SyedFahadAli1/Hack-Hurdles_036/blob/main/screenshot/Screenshot%20(137).png)
 
 
 ## Technology Stack
