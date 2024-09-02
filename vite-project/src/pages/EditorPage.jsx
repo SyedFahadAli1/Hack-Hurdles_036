@@ -171,7 +171,7 @@ const EditorPage = () => {
           </div>
           <div className="slide-actions">
             <button onClick={savePresentationAsPPT}>Save as PPT</button>
-            <button onClick={exportPresentation}>Export as JSON</button>
+            
             <button onClick={()=>{navigate("/slideshow")}}>Show Slideshow</button>
             <button onClick={saveAllSlidesAsPDF}>Save All as PDF</button>
           </div>

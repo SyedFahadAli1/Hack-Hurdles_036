@@ -98,14 +98,16 @@ const Sidebar = ({ addElement, setBackgroundColor, setFontStyle, setFontSize, se
   };
 
   return (
-    <div style={{ width: '250px', backgroundColor: '#f4f4f4', padding: '10px' }}>
+    <div style={{ width: '250px', backgroundColor: '#f4f4f4', padding: '10px',display:'flex', flexDirection:'column', gap:'20px' }}>
       <h3>Tools</h3>
       <button onClick={() => addElement({ type: 'text', content: 'New Text', isHeader: false })}>Add Text</button>
+      
       <button onClick={() => addElement({ type: 'text', content: 'Header', isHeader: true })}>Add Header</button>
       
       <button onClick={toggleShapesMenu}>
         Shapes {isShapesMenuOpen ? '▲' : '▼'}
       </button>
+      
       {isShapesMenuOpen && (
         <div style={{ marginTop: '10px' }}>
           {shapeTypes.map(({ name, shape }) => (
@@ -118,6 +120,7 @@ const Sidebar = ({ addElement, setBackgroundColor, setFontStyle, setFontSize, se
                   <use href={`#${shape}`} />
                 </svg>
               </button>
+              <br />
               <span style={{ marginLeft: '10px' }}>{name}</span>
             </div>
           ))}
@@ -125,7 +128,7 @@ const Sidebar = ({ addElement, setBackgroundColor, setFontStyle, setFontSize, se
       )}
 
       <h4>Shape Color</h4>
-      <input type="color" value={shapeColor} onChange={(e) => setShapeColor(e.target.value)} />
+      <input type="color" value={shapeColor} onChange={(e) => setShapeColor(e.target.value)} style={{width:'150px', height:'50px', padding:'10px'}} />
 
       <h4>Images & Videos</h4>
       <input
@@ -149,15 +152,15 @@ const Sidebar = ({ addElement, setBackgroundColor, setFontStyle, setFontSize, se
       {selectedImage && (
         <div style={{ marginTop: '20px' }}>
           <h5>Resize Image</h5>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <button onClick={() => handleResize('increase')}>Increase Size</button>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center',gap:'10px' }}>
+            <button style={{}} onClick={() => handleResize('increase')}>Increase Size</button>
             <button onClick={() => handleResize('decrease')}>Decrease Size</button>
           </div>
         </div>
       )}
 
       <h4>Background</h4>
-      <input type="color" onChange={(e) => setBackgroundColor(e.target.value)} />
+      <input type="color" onChange={(e) => setBackgroundColor(e.target.value)} style={{width:'150px', height:'50px', padding:'10px'}}/>
       
       <h4>Font Style</h4>
       <select onChange={(e) => setFontStyle(e.target.value)}>
