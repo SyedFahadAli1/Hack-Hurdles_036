@@ -9,6 +9,7 @@ Slide Master is a powerful web application designed for creating and managing pr
 Frontend 
 
 ## Video Walkthrough of the project
+Presentation : https://youtu.be/i1GKEhJOeZk
 
 ## Deplolyed App
 Frontend: https://hack-hurdles-036.vercel.app/ </br>
