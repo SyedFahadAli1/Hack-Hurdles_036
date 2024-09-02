@@ -173,7 +173,7 @@ const EditorPage = () => {
             <button onClick={savePresentationAsPPT}>Save as PPT</button>
             
             <button onClick={()=>{navigate("/slideshow")}}>Show Slideshow</button>
-            <button onClick={saveAllSlidesAsPDF}>Save All as PDF</button>
+            {/* <button onClick={saveAllSlidesAsPDF}>Save All as PDF</button> */}
           </div>
         </div>
         <Canvas
